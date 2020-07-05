@@ -1,4 +1,4 @@
-//快慢指针
+//经典快慢指针
 class Solution {
 public:
     ListNode* getKthFromEnd(ListNode* head, int k) {
@@ -17,4 +17,4 @@ public:
         }
         return low;
     }
-};
+i};
