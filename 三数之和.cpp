@@ -7,7 +7,7 @@ public:
        {
            int l = k+1;
            int r = nums.size()-1;
-           if(k>0 && nums[k]==nums[k-1]) continue;
+           if(k>0 && nums[k]==nums[k-1]) continue;//k>0时前后两个数相等则跳过
            
            while(l<r)
            {
