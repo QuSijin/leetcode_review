@@ -21,7 +21,7 @@ public:
 };
 
 //第二次复习
-/**
+/*
  * Definition for singly-linked list.
  * struct ListNode {
  *     int val;
