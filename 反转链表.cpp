@@ -13,10 +13,10 @@ public:
         if(head == NULL || head->next == NULL){
             return head;
         } 
-        ListNode* curr = reverseList(head->next);
+        ListNode* curr = reverseList(head->next);//找到队尾
        
-        head->next->next = head;
-        head->next = NULL;
+        head->next->next = head;//head的下一个结点指向head
+        head->next = NULL;//头指向空
         return curr;
     }
 };
